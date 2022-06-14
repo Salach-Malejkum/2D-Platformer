@@ -50,7 +50,7 @@ public class MenuScript : MonoBehaviour
 
     public void QuitButton()
     {
-        // TO DO
+        Application.Quit();
     }
 
     public void TutorialButton()

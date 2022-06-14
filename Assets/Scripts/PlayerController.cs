@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public bool canMove = true;
     public bool movementLeft = false;
     public bool movementRight = false;
+    public bool playerJump = false;
     public float distance = 0f;
 
     private bool isGrounded = true;
@@ -123,14 +124,14 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("isGrounded", isGrounded);
         }
-        // if (Input.GetKeyDown(KeyCode.W) || mobile)
-        // {
-        if (jumps > 0)
+        if (Input.GetKeyDown(KeyCode.W) || playerJump)
         {
-            rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
-            jumps--;
+            if (jumps > 0)
+            {
+                rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
+                jumps--;
+            }
         }
-        // }
     }
 
     public void JumpAfterKill()

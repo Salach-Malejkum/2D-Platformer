@@ -22,14 +22,9 @@ public class MobileMovement : MonoBehaviour
     void Update()
     {
         playerController.Movement();
+        playerController.Jump();
         objectsScripts.Move();
     }
-
-    // TODO
-    // public void Jump()
-    // {
-    //     playerController.Jump(true);
-    // }
 
     public void MovementLeftPress()
     {
@@ -53,5 +48,15 @@ public class MobileMovement : MonoBehaviour
     {
         playerController.movementRight = false;
         objectsScripts.movementRight = false;
+    }
+
+    public void JumpPress()
+    {
+        playerController.playerJump = true;
+    }
+
+    public void JumpRelease()
+    {
+        playerController.playerJump = false;
     }
 }
