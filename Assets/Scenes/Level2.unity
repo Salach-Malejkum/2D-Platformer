@@ -2278,6 +2278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallingPlatform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5417666540357309776, guid: 9a5b5393cdb672d47a64efe33fb797a5, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a5b5393cdb672d47a64efe33fb797a5, type: 3}
 --- !u!1 &525416974
@@ -5530,7 +5534,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ciemne platformy opadaja po 2 sekundach od kontatku z nimi
+  m_text: Ciemne platformy opadaja po chwili od kontatku z nimi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -7075,7 +7079,7 @@ GameObject:
   - component: {fileID: 1534472637}
   - component: {fileID: 1534472639}
   - component: {fileID: 1534472638}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9438,7 +9442,7 @@ GameObject:
   - component: {fileID: 2119791787}
   - component: {fileID: 2119791786}
   - component: {fileID: 2119791785}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
