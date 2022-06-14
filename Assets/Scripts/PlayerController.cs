@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public int score = 0;
     public Transform GroundCheck;
     public LayerMask GroundLayer;
-    public TextMeshPro scoreText;
+    public TMPro.TextMeshProUGUI scoreText;
     public Rigidbody2D rb2d;
     public Animator animator;
     public bool canMove = true;
