@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 8248258488462868921}
   - component: {fileID: 8248258488462868917}
   - component: {fileID: 8248258488462868922}
-  m_Layer: 0
+  - component: {fileID: -533182112905534807}
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,3 +155,24 @@ MonoBehaviour:
   spriteRenderer: {fileID: 8248258488462868920}
   coll: {fileID: 8248258488462868921}
   animator: {fileID: 8248258488462868917}
+--- !u!50 &-533182112905534807
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8248258488462868926}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

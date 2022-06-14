@@ -94,6 +94,7 @@ public class MenuScript : MonoBehaviour
     {
         level1Button.gameObject.SetActive(false);
         level2Button.gameObject.SetActive(false);
+        backTutorialButton.gameObject.SetActive(false);
 
         tutorialButton.gameObject.SetActive(true);
         infinityButton.gameObject.SetActive(true);
