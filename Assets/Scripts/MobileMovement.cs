@@ -21,8 +21,11 @@ public class MobileMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerController.Movement();
-        playerController.Jump();
+        if (playerController != null)
+        {
+            playerController.Movement();
+            playerController.Jump();
+        }
         objectsScripts.Move();
     }
 
