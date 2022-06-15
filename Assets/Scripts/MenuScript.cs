@@ -50,7 +50,7 @@ public class MenuScript : MonoBehaviour
 
     public void InfinityButton()
     {
-        SceneManager.LoadScene("InfinityLevel");
+        // SceneManager.LoadScene("InfinityLevel");
     }
 
     public void BackSelectMode()
