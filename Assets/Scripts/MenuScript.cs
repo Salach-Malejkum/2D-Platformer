@@ -15,22 +15,6 @@ public class MenuScript : MonoBehaviour
     public Button backTutorialButton;
     public Button level1Button;
     public Button level2Button;
-    // Start is called before the first frame update
-    void Start()
-    {
-        // tutorialButton.gameObject.SetActive(false);
-        // infinityButton.gameObject.SetActive(false);
-        // backSelectButton.gameObject.SetActive(false);
-        // level1Button.gameObject.SetActive(false);
-        // level2Button.gameObject.SetActive(false);
-        // backTutorialButton.gameObject.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void PlayButton()
     {
